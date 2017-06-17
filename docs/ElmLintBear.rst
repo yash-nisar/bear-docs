@@ -1,5 +1,5 @@
-`ElmLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/ElmLintBear/coalaElmLintBear/ElmLintBear.py>`_
-==========================================================================================================================
+`ElmLintBear <https://github.com/coala/coala-bears/tree/master/bears/elm/ElmLintBear.py>`_
+==========================================================================================
 
 This bear formats the Elm source code according to a standard set of rules.
 

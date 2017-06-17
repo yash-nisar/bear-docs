@@ -1,5 +1,5 @@
-`LicenseCheckBear <https://github.com/coala/coala-bears/tree/master/bears/upload/LicenseCheckBear/coalaLicenseCheckBear/LicenseCheckBear.py>`_
-==============================================================================================================================================
+`LicenseCheckBear <https://github.com/coala/coala-bears/tree/master/bears/general/LicenseCheckBear.py>`_
+========================================================================================================
 
 Attempts to check the given file for a license, by searching the start
 of the file for text belonging to various licenses.
@@ -36,8 +36,7 @@ Settings
 Dependencies
 ------------
 
-* System requirement
-  - ``dnf`` - ``licensecheck``  - ``apt_get`` - ``devscripts``
+* ``distribution`` - ``devscripts``
 
 
 Can Detect

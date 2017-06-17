@@ -15,8 +15,7 @@ Read more at <https://github.com/mpeterv/luacheck>.
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``luarocks``
+* ``luarocks`` - ``luacheck``
 
 
 Can Detect

@@ -1,5 +1,5 @@
-`LatexLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/LatexLintBear/coalaLatexLintBear/LatexLintBear.py>`_
-==================================================================================================================================
+`LatexLintBear <https://github.com/coala/coala-bears/tree/master/bears/latex/LatexLintBear.py>`_
+================================================================================================
 
 Checks the code with ``chktex``.
 
@@ -13,8 +13,7 @@ Checks the code with ``chktex``.
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``chktex``
+* ``distribution`` - ``chktex``
 
 
 Can Detect

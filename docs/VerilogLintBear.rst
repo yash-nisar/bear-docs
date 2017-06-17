@@ -32,8 +32,7 @@ Demo
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``verilator``
+* ``distribution`` - ``verilator``
 
 
 Can Detect

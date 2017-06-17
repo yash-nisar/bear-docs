@@ -5,7 +5,7 @@ Documentation for coala bears
 
 **Note**: The ``master`` branch contains docs for the latest stable version. If you want to view the docs for the latest development version, see the ``pre`` branch.
 
-**Supported Languages (64)**
+**Supported Languages (80)**
 ----------------------------
 
 .. contents::
@@ -24,6 +24,10 @@ All
 * `LineLengthBear <docs/LineLengthBear.rst>`_
 * `SpaceConsistencyBear <docs/SpaceConsistencyBear.rst>`_
 * `coalaBear <docs/coalaBear.rst>`_
+
+Apertium
+========
+* `ApertiumLintBear <docs/ApertiumLintBear.rst>`_
 
 C
 =
@@ -117,6 +121,7 @@ HTML
 ====
 * `BootLintBear <docs/BootLintBear.rst>`_
 * `HTMLLintBear <docs/HTMLLintBear.rst>`_
+* `TextLintBear <docs/TextLintBear.rst>`_
 
 Haskell
 =======
@@ -153,6 +158,7 @@ JavaScript
 
 Jinja2
 ======
+* `HTMLLintBear <docs/HTMLLintBear.rst>`_
 * `Jinja2Bear <docs/Jinja2Bear.rst>`_
 
 Julia
@@ -166,6 +172,7 @@ Lua
 Markdown
 ========
 * `MarkdownBear <docs/MarkdownBear.rst>`_
+* `TextLintBear <docs/TextLintBear.rst>`_
 
 Matlab
 ======
@@ -221,8 +228,10 @@ OpenMP
 PHP
 ===
 * `CPDBear <docs/CPDBear.rst>`_
+* `HTMLLintBear <docs/HTMLLintBear.rst>`_
 * `PHPCodeSnifferBear <docs/PHPCodeSnifferBear.rst>`_
 * `PHPLintBear <docs/PHPLintBear.rst>`_
+* `PHPMessDetectorBear <docs/PHPMessDetectorBear.rst>`_
 
 PL/SQL
 ======
@@ -338,10 +347,18 @@ Scala
 * `CPDBear <docs/CPDBear.rst>`_
 * `ScalaLintBear <docs/ScalaLintBear.rst>`_
 
+Stylus
+======
+* `StylintBear <docs/StylintBear.rst>`_
+
 Swift
 =====
 * `CPDBear <docs/CPDBear.rst>`_
 * `TailorBear <docs/TailorBear.rst>`_
+
+TOML
+====
+* `TOMLBear <docs/TOMLBear.rst>`_
 
 Tex
 ===
@@ -375,13 +392,49 @@ bash
 ====
 * `ShellCheckBear <docs/ShellCheckBear.rst>`_
 
+c
+=
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+cpp
+===
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+cs
+==
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
 dash
 ====
 * `ShellCheckBear <docs/ShellCheckBear.rst>`_
 
+default
+=======
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+fortran
+=======
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+golang
+======
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+java
+====
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
 ksh
 ===
 * `ShellCheckBear <docs/ShellCheckBear.rst>`_
+
+objective-c
+===========
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+php
+===
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
 
 po
 ==
@@ -391,12 +444,29 @@ pot
 ===
 * `DennisBear <docs/DennisBear.rst>`_
 
+python
+======
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+python3
+=======
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
 reStructuredText
 ================
 * `RSTcheckBear <docs/RSTcheckBear.rst>`_
+* `TextLintBear <docs/TextLintBear.rst>`_
 * `reSTLintBear <docs/reSTLintBear.rst>`_
 
 sh
 ==
 * `ShellCheckBear <docs/ShellCheckBear.rst>`_
+
+tcl
+===
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
+
+vhdl
+====
+* `DocumentationStyleBear <docs/DocumentationStyleBear.rst>`_
 

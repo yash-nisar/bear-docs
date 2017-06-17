@@ -1,5 +1,5 @@
-`CoffeeLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CoffeeLintBear/coalaCoffeeLintBear/CoffeeLintBear.py>`_
-======================================================================================================================================
+`CoffeeLintBear <https://github.com/coala/coala-bears/tree/master/bears/coffee_script/CoffeeLintBear.py>`_
+==========================================================================================================
 
 Check CoffeeScript code for a clean and consistent style.
 
@@ -39,9 +39,11 @@ Settings
 |                                                    |                                                              |
 | ``allow_interpolation_in_single_quotes``           | Allows string interpolation in a single quoted string.       |
 |                                                    | Example: If ``allow_interpolation_in_single_quotes =         |
-|                                                    | False`` then ``` f = '#{bar}' ``` is prohibited, whereas     |
-|                                                    | ``` f = "#{bar}" ``` is correct. (Optional, defaults to      |
-|                                                    | 'True'.)                                                     |
+|                                                    | False`` then::                                               |
+|                                                    | f = '#{bar}'                                                 |
+|                                                    | is prohibited, whereas::                                     |
+|                                                    | f = "#{bar}"                                                 |
+|                                                    | is correct. (Optional, defaults to 'True'.)                  |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -51,10 +53,11 @@ Settings
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
 | ``allow_stand_alone_at_sign``                      | Allows the use of stand alone  ``@``.                        |
-|                                                    | Example: If ``allow_stand_alone_at_sign = False`` ``` @      |
-|                                                    | notok not(@).ok @:: ``` are prohibited, whereas ```          |
-|                                                    | @alright @(fn) @ok() @[ok] @ok() ``` are accepted.           |
-|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    | Example: If ``allow_stand_alone_at_sign = False``::          |
+|                                                    | @ notok not(@).ok @::                                        |
+|                                                    | are prohibited, whereas::                                    |
+|                                                    | @alright @(fn) @ok() @[ok] @ok()                             |
+|                                                    | are accepted. (Optional, defaults to 'False'.)               |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -64,19 +67,21 @@ Settings
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
 | ``allow_throwing_strings``                         | Allows throwing string literals or interpolation.            |
-|                                                    | Example: If ``allow_throwing_strings = False`` ``` throw     |
-|                                                    | 'my error' throw "#{1234}" ``` will not be permitted.        |
-|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    | Example: If ``allow_throwing_strings = False``::             |
+|                                                    | throw 'my error' throw "#{1234}"                             |
+|                                                    | will not be permitted. (Optional, defaults to 'False'.)      |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
 | ``allow_trailing_semicolons``                      | Prohibits trailing semicolons when ``False`` since they are  |
 |                                                    | not useful. The semicolon is meaningful only if there's      |
 |                                                    | another instruction on the same line.                        |
-|                                                    | Example: If ``allow_trailing_semicolon = False`` ``` x =     |
-|                                                    | '1234'; console.log(x) ``` Here the semicolon is             |
-|                                                    | meaningful. ``` alert('end of line'); ``` This semicolon is  |
-|                                                    | redundant. (Optional, defaults to 'False'.)                  |
+|                                                    | Example: If ``allow_trailing_semicolon = False``::           |
+|                                                    | x = '1234'; console.log(x)                                   |
+|                                                    | Here the semicolon is meaningful::                           |
+|                                                    | alert('end of line');                                        |
+|                                                    | This semicolon is redundant. (Optional, defaults to          |
+|                                                    | 'False'.)                                                    |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
@@ -123,18 +128,21 @@ Settings
 |                                                    |                                                              |
 | ``enforce_parentheses_on_non_empty_constructors``  | Requires constructors with parameters to include             |
 |                                                    | parentheses.                                                 |
-|                                                    | Example: ``` class Foo # Warn about missing parentheses      |
-|                                                    | here a = new Foo b = new bar.foo.Foo # The parentheses make  |
-|                                                    | it clear no parameters are intended c = new Foo() d = new    |
-|                                                    | bar.foo.Foo() e = new Foo 1, 2 f = new bar.foo.Foo 1, 2 ```  |
+|                                                    | Example::                                                    |
+|                                                    | class Foo # Warn about missing parentheses here a = new Foo  |
+|                                                    | b = new bar.foo.Foo # The parentheses make it clear no       |
+|                                                    | parameters are intended c = new Foo() d = new bar.foo.Foo()  |
+|                                                    | e = new Foo 1, 2 f = new bar.foo.Foo 1, 2                    |
 |                                                    | (Optional, defaults to 'True'.)                              |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |
 | ``force_braces``                                   | Prohibits implicit braces when declaring object literals.    |
-|                                                    | Example: If ``force_braces = True`` then ``` 1:2, 3:4 ```    |
-|                                                    | is prohibited, whereas ``` {1:2, 3:4} ``` is accepted.       |
-|                                                    | (Optional, defaults to 'False'.)                             |
+|                                                    | Example: If ``force_braces = True`` then::                   |
+|                                                    | 1:2, 3:4                                                     |
+|                                                    | is prohibited, whereas::                                     |
+|                                                    | {1:2, 3:4}                                                   |
+|                                                    | is accepted. (Optional, defaults to 'False'.)                |
 |                                                    |                                                              |
 +----------------------------------------------------+--------------------------------------------------------------+
 |                                                    |                                                              |

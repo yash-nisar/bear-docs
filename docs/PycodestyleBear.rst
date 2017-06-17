@@ -1,5 +1,5 @@
-`PycodestyleBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PycodestyleBear/coalaPycodestyleBear/PycodestyleBear.py>`_
-==========================================================================================================================================
+`PycodestyleBear <https://github.com/coala/coala-bears/tree/master/bears/python/PycodestyleBear.py>`_
+=====================================================================================================
 
 A wrapper for the tool ``pycodestyle`` formerly known as ``pep8``.
 
@@ -23,14 +23,15 @@ Settings
 |                         |                                                             |
 | ``pycodestyle_ignore``  | Comma separated list of errors to ignore. See               |
 |                         | ``pydocstyle`` documentation for a complete list of errors. |
-|                         | (Optional, defaults to ''.)                                 |
+|                         | (Optional, defaults to '('E121', 'E123', 'E126', 'E133',    |
+|                         | 'E226', 'E241', 'E242', 'E704', 'W503')'.)                  |
 |                         |                                                             |
 +-------------------------+-------------------------------------------------------------+
 |                         |                                                             |
 | ``pycodestyle_select``  | Comma separated list of errors to detect. If given only     |
 |                         | these errors are going to be detected. See ``pydocstyle``   |
 |                         | documentation for a complete list of errors. (Optional,     |
-|                         | defaults to ''.)                                            |
+|                         | defaults to '()'.)                                          |
 |                         |                                                             |
 +-------------------------+-------------------------------------------------------------+
 

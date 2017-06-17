@@ -1,5 +1,5 @@
-`PHPLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PHPLintBear/coalaPHPLintBear/PHPLintBear.py>`_
-==========================================================================================================================
+`PHPLintBear <https://github.com/coala/coala-bears/tree/master/bears/php/PHPLintBear.py>`_
+==========================================================================================
 
 Checks the code with ``php -l``. This runs it on each file separately.
 
@@ -13,8 +13,7 @@ Checks the code with ``php -l``. This runs it on each file separately.
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``php-cli``
+* ``distribution`` - ``php-cli``
 
 
 Can Detect

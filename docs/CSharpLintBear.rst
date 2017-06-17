@@ -13,8 +13,7 @@ Checks C# code for syntactical correctness using the ``mcs`` compiler.
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``mono-mcs``
+* ``distribution`` - ``mono``
 
 
 Can Detect

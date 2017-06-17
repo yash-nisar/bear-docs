@@ -22,9 +22,12 @@ Settings
 |                              |                                                             |
 | ``r_braces_on_next_line``    | Determines whether a brace should be placed on the next     |
 |                              | line.                                                       |
-|                              | Example: If ``True``, ``` if (...) { ``` changes to ``` if  |
-|                              | (...) { ``` If ``False`` the brace is placed on the same    |
-|                              | line. (Optional, defaults to 'None'.)                       |
+|                              | Example: If ``True``::                                      |
+|                              | if (...) {                                                  |
+|                              | changes to::                                                |
+|                              | if (...) {                                                  |
+|                              | If ``False`` the brace is placed on the same line.          |
+|                              | (Optional, defaults to 'None'.)                             |
 |                              |                                                             |
 +------------------------------+-------------------------------------------------------------+
 |                              |                                                             |
@@ -39,9 +42,10 @@ Settings
 +------------------------------+-------------------------------------------------------------+
 |                              |                                                             |
 | ``r_max_expression_length``  | Maximum number of characters for an expression.             |
-|                              | Example: If ``20`` then ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ```   |
-|                              | changes to ``` 1 + 1 + 1 + 1 + 1 + 1 + 1 ``` (Optional,     |
-|                              | defaults to '0'.)                                           |
+|                              | Example: If ``20`` then::                                   |
+|                              | 1 + 1 + 1 + 1 + 1 + 1 + 1                                   |
+|                              | changes to::                                                |
+|                              | 1 + 1 + 1 + 1 + 1 + 1 + 1 (Optional, defaults to '0'.)      |
 |                              |                                                             |
 +------------------------------+-------------------------------------------------------------+
 |                              |                                                             |
@@ -65,7 +69,7 @@ Demo
 Dependencies
 ------------
 
-* ``R`` - ``formatR``
+* ``any-one-of`` - ``DistributionRequirement(R-formatR) RscriptRequirement(formatR)``
 
 
 Can Detect

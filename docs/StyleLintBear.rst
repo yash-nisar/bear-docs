@@ -1,5 +1,5 @@
-`StyleLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/StyleLintBear/coalaStyleLintBear/StyleLintBear.py>`_
-==================================================================================================================================
+`StyleLintBear <https://github.com/coala/coala-bears/tree/master/bears/css/StyleLintBear.py>`_
+==============================================================================================
 
 Checks the code with stylelint. This will run stylelint over each file
 separately.

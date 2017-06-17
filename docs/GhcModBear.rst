@@ -1,5 +1,5 @@
-`GhcModBear <https://github.com/coala/coala-bears/tree/master/bears/upload/GhcModBear/coalaGhcModBear/GhcModBear.py>`_
-======================================================================================================================
+`GhcModBear <https://github.com/coala/coala-bears/tree/master/bears/haskell/GhcModBear.py>`_
+============================================================================================
 
 Syntax checking with ``ghc`` for Haskell files.
 
@@ -24,7 +24,7 @@ Demo
 Dependencies
 ------------
 
-* ``cabal`` - ``ghc-mod``
+* ``any-one-of`` - ``CabalRequirement(ghc-mod 5.6.0) DistributionRequirement(ghc-mod)``
 
 
 Can Detect

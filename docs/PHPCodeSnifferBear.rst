@@ -1,5 +1,5 @@
-`PHPCodeSnifferBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PHPCodeSnifferBear/coalaPHPCodeSnifferBear/PHPCodeSnifferBear.py>`_
-======================================================================================================================================================
+`PHPCodeSnifferBear <https://github.com/coala/coala-bears/tree/master/bears/php/PHPCodeSnifferBear.py>`_
+========================================================================================================
 
 Ensures that your PHP, JavaScript or CSS code remains clean and consistent.
 
@@ -109,8 +109,7 @@ Demo
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``php-codesniffer``
+* ``any-one-of`` - ``ComposerRequirement(squizlabs/php_codesniffer) DistributionRequirement(php-pear-php_codesniffer)``
 
 
 Can Detect

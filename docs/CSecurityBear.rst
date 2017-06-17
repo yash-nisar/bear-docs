@@ -25,8 +25,7 @@ Demo
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``flawfinder``
+* ``distribution`` - ``flawfinder``
 
 
 Can Detect

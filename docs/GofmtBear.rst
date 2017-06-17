@@ -1,5 +1,5 @@
-`GofmtBear <https://github.com/coala/coala-bears/tree/master/bears/upload/GofmtBear/coalaGofmtBear/GofmtBear.py>`_
-==================================================================================================================
+`GofmtBear <https://github.com/coala/coala-bears/tree/master/bears/go/GofmtBear.py>`_
+=====================================================================================
 
 Suggest better formatting options in Go code. Basic checks like alignment,
 indentation, and redundant parentheses are provided.
@@ -12,6 +12,16 @@ This is done using the ``gofmt`` utility. For more information visit
 
 * Go
 
+Settings
+--------
+
++---------------+---------------------------------------------------------+
+| Setting       |  Meaning                                                |
++===============+=========================================================+
+|               |                                                         |
+| ``simplify``  | Tries to simplify code (Optional, defaults to 'False'.) +
+|               |                                                         |
++---------------+---------------------------------------------------------+
 
 
 Demo
@@ -32,11 +42,13 @@ Dependencies
 Can Detect
 ----------
 
+* Code Simplification
 * Formatting
 
 Can Fix
 ----------
 
+* Code Simplification
 * Formatting
 
 License

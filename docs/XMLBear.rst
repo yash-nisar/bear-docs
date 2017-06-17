@@ -31,8 +31,7 @@ Settings
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``libxml2-utils``
+* ``distribution`` - ``libxml2``
 
 
 Can Detect

@@ -23,6 +23,11 @@ Settings
 |                      |                                                             |
 +----------------------+-------------------------------------------------------------+
 |                      |                                                             |
+| ``max_line_length``  | Maximum number of characters for a line, the newline        |
+|                      | character being excluded. (Optional, defaults to '80'.)     |
+|                      |                                                             |
++----------------------+-------------------------------------------------------------+
+|                      |                                                             |
 | ``yamllint_config``  | Path to a custom configuration file. (Optional, defaults to |
 |                      | ''.)                                                        |
 |                      |                                                             |

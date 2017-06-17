@@ -28,6 +28,12 @@ information.
 
 
 
+Dependencies
+------------
+
+* ``distribution`` - ``perl``
+
+
 Can Detect
 ----------
 

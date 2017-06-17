@@ -28,8 +28,7 @@ Settings
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``cppcheck``
+* ``distribution`` - ``cppcheck``
 
 
 Can Detect

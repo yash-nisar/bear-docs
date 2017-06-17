@@ -1,5 +1,5 @@
-`PyUnusedCodeBear <https://github.com/coala/coala-bears/tree/master/bears/upload/PyUnusedCodeBear/coalaPyUnusedCodeBear/PyUnusedCodeBear.py>`_
-==============================================================================================================================================
+`PyUnusedCodeBear <https://github.com/coala/coala-bears/tree/master/bears/python/PyUnusedCodeBear.py>`_
+=======================================================================================================
 
 Detects unused code. By default this functionality is limited to:
 - Unneeded pass statements. - Unneeded builtin imports.
@@ -20,6 +20,11 @@ Settings
 |                                |                                                           |
 | ``remove_all_unused_imports``  | True removes all unused imports - might have side effects |
 |                                | (Optional, defaults to 'False'.)                          |
+|                                |                                                           |
++--------------------------------+-----------------------------------------------------------+
+|                                |                                                           |
+| ``remove_unused_variables``    | True removes unused variables - might have side effects   |
+|                                | (Optional, defaults to 'True'.)                           |
 |                                |                                                           |
 +--------------------------------+-----------------------------------------------------------+
 

@@ -1,7 +1,8 @@
-`YapfBear <https://github.com/coala/coala-bears/tree/master/bears/upload/YapfBear/coalaYapfBear/YapfBear.py>`_
-==============================================================================================================
+`YapfBear <https://github.com/coala/coala-bears/tree/master/bears/python/YapfBear.py>`_
+=======================================================================================
 
-
+Check and correct formatting of Python code using ``yapf`` utility.
+See <https://github.com/google/yapf> for more information.
 
 `Supported Languages <../README.rst>`_
 --------------------------------------
@@ -34,11 +35,13 @@ Settings
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |
 | ``coalesce_brackets``                               | Prevents splitting consecutive brackets. Only relevant when  |
-|                                                     | ``dedent_closing_brackets`` is set. Example: If ``True``,    |
-|                                                     | ``` call_func_that_takes_a_dict( { 'key1': 'value1',         |
-|                                                     | 'key2': 'value2', } ) ``` would reformat to: ```             |
+|                                                     | ``dedent_closing_brackets`` is set. Example: If ``True``::   |
+|                                                     | call_func_that_takes_a_dict( { 'key1': 'value1', 'key2':     |
+|                                                     | 'value2', } )                                                |
+|                                                     | would reformat to::                                          |
 |                                                     | call_func_that_takes_a_dict({ 'key1': 'value1', 'key2':      |
-|                                                     | 'value2', }) ``` (Optional, defaults to 'False'.)            |
+|                                                     | 'value2', })                                                 |
+|                                                     | (Optional, defaults to 'False'.)                             |
 |                                                     |                                                              |
 +-----------------------------------------------------+--------------------------------------------------------------+
 |                                                     |                                                              |

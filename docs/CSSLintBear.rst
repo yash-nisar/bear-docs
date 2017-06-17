@@ -1,5 +1,5 @@
-`CSSLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/CSSLintBear/coalaCSSLintBear/CSSLintBear.py>`_
-==========================================================================================================================
+`CSSLintBear <https://github.com/coala/coala-bears/tree/master/bears/css/CSSLintBear.py>`_
+==========================================================================================
 
 Check code for syntactical or semantical problems that might lead to
 problems or inefficiencies.

@@ -1,5 +1,5 @@
-`HTMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/upload/HTMLLintBear/coalaHTMLLintBear/HTMLLintBear.py>`_
-==============================================================================================================================
+`HTMLLintBear <https://github.com/coala/coala-bears/tree/master/bears/hypertext/HTMLLintBear.py>`_
+==================================================================================================
 
 Check HTML source code for invalid or misformatted code.
 
@@ -9,6 +9,8 @@ See also <https://pypi.python.org/pypi/html-linter>.
 --------------------------------------
 
 * HTML
+* Jinja2
+* PHP
 
 Settings
 --------

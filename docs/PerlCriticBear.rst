@@ -25,8 +25,7 @@ Settings
 Dependencies
 ------------
 
-* System requirement
-  - ``apt_get`` - ``libperl-critic-perl``
+* ``distribution`` - ``libperl-critic-perl``
 
 
 Can Detect
